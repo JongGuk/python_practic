@@ -18,6 +18,5 @@ first_three_url = before_dot_url[0:3] # 규칙3
 num_of_letter = len(before_dot_url)
 num_of_e = before_dot_url.count("e")
 
-
 passwd = first_three_url + str(num_of_letter) + str(num_of_e) + "!"
 print(passwd)
